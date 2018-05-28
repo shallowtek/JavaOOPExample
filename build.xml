@@ -266,8 +266,8 @@
     <echo> Compilation going on .......... </echo>
     <javac destdir="${build_dir}" srcdir="${src_dir}"/>
     <echo> Running java class ......... </echo>
-    <javaclassname = "Main" classpath="${build_dir}">
-  </java>
+    <javaclassname = "Main" classpath="${build_dir}"/>
+  
     <!-- Perform any build initialization in this target -->
   </target>
   
