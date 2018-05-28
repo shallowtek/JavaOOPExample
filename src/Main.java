@@ -14,7 +14,7 @@ public class Main {
         myContactsManager.addContact(one);
         two = myContactsManager.searchContact("john");
 
-       System.out.println(two.name + "\n" + two.email);
+       System.out.println(two.name + "\n" + two.email +);
 
     }
 }
