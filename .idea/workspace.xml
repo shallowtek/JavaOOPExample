@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4416f767-43d7-4d12-96f6-9c8b259d548e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.md.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
