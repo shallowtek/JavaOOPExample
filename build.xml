@@ -260,6 +260,14 @@
   </target>
   
   <target name="init" description="Build initialization">
+
+    <echo> Build folder crateing .......... </echo>
+    <mkdir dir="${build_dir}"/>
+    <echo> Compilation going on .......... </echo>
+    <javac destdir="${build_dir}" srcdir="${src_dir}"/>
+    <echo> Running java class ......... </echo>
+    <javaclassname = "Main" classpath="${build_dir}">
+  </java>
     <!-- Perform any build initialization in this target -->
   </target>
   

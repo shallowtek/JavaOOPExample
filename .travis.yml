@@ -2,7 +2,7 @@ language: java
 jdk:
  - oraclejdk8
  
-script: ant all
+script: ant init
 
 notifications:
   email: false
